@@ -1,0 +1,32 @@
+body {
+  background-color: gray;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 30vh;
+  border-radius: 25px;
+}
+
+.banner h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #2e6de6;
+}
+
+.banner img {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  border: 0;
+  background-color: #2e6de6;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  border-radius: 25px;
+  margin-top: 30px;
+  padding: 10px 25px;
+}
